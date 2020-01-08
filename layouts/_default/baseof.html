@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html class="nojs" lang="{{ .Site.Language.Lang }}" dir="{{ .Site.Language.Params.dir | default "ltr" }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ block "title" . }}{{ .Title }} – {{ .Site.Title }}{{ end }}</title>
+{{ partial "meta.html" . }}
+{{ partialCached "styles.html" . }}
+{{- block "head" . }}{{ end }}
+{{ partial "meta_json_ld.html" . }}
+{{ partial "scripts.html" . }}
+{{ partialCached "matomo.html" . }}
+</head>
+
+<body>
+
+
+<div class="mb-1 mt-">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="#" class="nav-link"><i
+                            class="d-block fa fa-lg fa-facebook-square"></i></a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"><i class="d-block fa fa-lg fa-twitter-square"></i></a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="d-block fa fa-lg fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6" id="lang-switcherlang_switcher">
+                <ul class="nav nav-pills pull-right" style="">
+                	{{ if .Site.IsMultiLingual }}{{ partial "language-selector.html" . }}{{ end -}}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="text-center align-items-center d-flex"
+     style="	background-image: url(https://picsum.photos/id/291/1800/700);	background-position: top left;	background-size: 100%;	background-repeat: no-repeat;">
+    <div class="container py-3">
+        <div class="row">
+            <div class="col-md-8 mx-auto"><img class="img-fluid d-block ml-auto mr-auto"
+                                               src="{{ "/images/logo.png" | relURL }}" style=""
+                                               width="35%">
+                <p class="lead text-white mt-4 mb-4">Jsme hnutí usilující o ukončení těžby a spalování fosilních
+                    paliv.<br>Naším cílem je klimatická spravedlnost.</p> 
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+	{{ partial "menu.html" . }}
+</div>
+
+<div class="container">
+	{{ block "main" . }}{{ end }}
+</div>
+
+
+</body>
+</html>
+
+
+</div>
+{{ if $.Param "mobilemenu" }}{{ partial "mobilemenu.html" . }}{{ end -}}
+

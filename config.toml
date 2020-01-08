@@ -1,4 +1,44 @@
-baseURL = "https://limityjsmemy.github.io/limityjsmemy.cz/"
-languageCode = "en-us"
-title = "Limity jsme my"
+baseurl = "https://matejdivecky.github.io/limityjsmemy.cz/"
+title = "Limity Jsme My"
 theme = "zen"
+Paginate = 4
+
+[params]
+copyright = "This site is licensed under some licence"
+dateformat = ""
+description = ""
+favicon = ""
+feedlinks = false
+footer = "My jsme limity"
+icon = ""
+image = ""
+imageMaxWidth = ""
+jquery = true
+languageDir = ""
+logo = true
+mainSections = [
+  "actions",
+  "posts"
+]
+microUsername = ""
+mobileMenu = true
+piwikTrackerUrl = ""
+poweredby = false
+search = false
+sidebar = true
+submitted = true
+DefaultContentLanguage = "cz"
+[languages]
+  [languages.en]
+    weight = 1
+    contentDir = "content/english"
+    languageName = "English"
+  [languages.cz]
+    weight = 2
+    contentDir = "content/czech"
+    languageName = "Česky"
+  [languages.de]
+    weight = 2
+    contentDir = "content/deutsch"
+    languageName = "Deutsch"
+
