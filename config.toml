@@ -1,35 +1,35 @@
-baseURL = "https://limityjsmemy.github.io/limityjsmemy.cz/"
-languageCode = "en-us"
-title = "Limity jsme my"
+baseurl = "https =//matejdivecky.github.io/limityjsmemy.cz/"
+title = "LJM"
 theme = "zen"
 
-params:
-  copyright: "This site is licensed under a 
-              (https://creativecommons.org/licenses/by-sa/4.0/)."
+params =
+  contact = "info@example.org"
+  copyright = "This site is licensed under a 
+              (https =//creativecommons.org/licenses/by-sa/4.0/)."
               [Creative Commons Attribution-ShareAlike 4.0 International License]
-  dateformat: ""            # Set the date format, default to "2 January, 2006"
-  description: ""           # Set site description, used in meta tags and JSON-LD
-  favicon: ""               # Relative path to favicon in json feed, no leading slash.
-  feedlinks: true           # Show feed links in the footer.
-  footer: "A [example.org](https://example.org/) production."
-  icon: ""                  # Relative path to icon in json feed and JSON-LD, no leading slash.
-  image: ""                 # Relative path to site image in JSON-LD, no leading slash.
-  imageMaxWidth: ""         # Max width for images added via figure shortcode.
-  jquery: true              # Add jQuery
-  languageDir: ""           # Set ltr or rtl, defaults to ltr.
-  logo: false               # Turn off the logo.
-  mainSections:             # The sections you want to have listed on the front page.
+  dateformat = ""            # Set the date format, default to "2 January, 2006"
+  description = ""           # Set site description, used in meta tags and JSON-LD
+  favicon = ""               # Relative path to favicon in json feed, no leading slash.
+  feedlinks = true           # Show feed links in the footer.
+  footer = "A [example.org](https =//example.org/) production."
+  icon = ""                  # Relative path to icon in json feed and JSON-LD, no leading slash.
+  image = ""                 # Relative path to site image in JSON-LD, no leading slash.
+  imageMaxWidth = ""         # Max width for images added via figure shortcode.
+  jquery = true              # Add jQuery
+  languageDir = ""           # Set ltr or rtl, defaults to ltr.
+  logo = false               # Turn off the logo.
+  mainSections =             # The sections you want to have listed on the front page.
     - "section1"            # Default to the section with most content if not set.
     - "section2"            # Set to empty if no section should be listed.
-  microUsername: ""         # Your micro.blog username.
-  mobileMenu: true          # Turn on a mobile menu on small screens.
-  piwikSiteId:              # Matamo site id
-  piwikTrackerUrl: ""       # Matamo url, schemaless and no slash on end (example.org/matamo).
-  poweredby: true           # Show powered by hugo in footer
-  realfavicongenerator:     # If full set of favicons, site manifest etc. exists, default false.
-  safariPinnedColor:        # Hex color value, used in meta tags, default "#000000".
-  search: true              # Site search with DuckDuckGo.
-  searchSize: 20            # Search field size, default 20.
-  sidebar: true             # Show a sidebar to the right
-  submitted: true           # Show author and date information for a post.
-  themeColor:               # Hex color value, used in meta tags, default "#ffffff".
+  microUsername = ""         # Your micro.blog username.
+  mobileMenu = true          # Turn on a mobile menu on small screens.
+  piwikSiteId =              # Matamo site id
+  piwikTrackerUrl = ""       # Matamo url, schemaless and no slash on end (example.org/matamo).
+  poweredby = true           # Show powered by hugo in footer
+  realfavicongenerator =     # If full set of favicons, site manifest etc. exists, default false.
+  safariPinnedColor =        # Hex color value, used in meta tags, default "#000000".
+  search = true              # Site search with DuckDuckGo.
+  searchSize = 20            # Search field size, default 20.
+  sidebar = true             # Show a sidebar to the right
+  submitted = true           # Show author and date information for a post.
+  themeColor =               # Hex color value, used in meta tags, default "#ffffff".
