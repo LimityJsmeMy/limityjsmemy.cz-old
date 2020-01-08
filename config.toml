@@ -1,6 +1,7 @@
 baseurl = "https://matejdivecky.github.io/limityjsmemy.cz/"
 title = "Limity Jsme My"
 theme = "zen"
+Paginate = 4
 
 [params]
 copyright = "This site is licensed under some licence"
@@ -16,7 +17,7 @@ jquery = true
 languageDir = ""
 logo = true
 mainSections = [
-  "pages",
+  "actions",
   "posts"
 ]
 microUsername = ""
@@ -40,3 +41,4 @@ DefaultContentLanguage = "cz"
     weight = 2
     contentDir = "content/deutsch"
     languageName = "Deutsch"
+
