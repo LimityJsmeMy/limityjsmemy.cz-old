@@ -5,6 +5,11 @@ admin_path: "/admin"
 webhook_url: 
 sections:
 - type: directory
+  path: content/czech/pages/**
+  label: Pages - CZ
+  create: all
+  match: "**/*"
+- type: directory
   path: content/english/pages
   label: Pages - EN
   create: all
