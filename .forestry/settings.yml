@@ -4,15 +4,24 @@ auto_deploy: false
 admin_path: "/admin"
 webhook_url: 
 sections:
+- type: heading
+  label: Czech
 - type: directory
-  path: content/czech/pages/**
+  path: content/czech
   label: Pages - CZ
+  create: documents
+  match: "*"
+- type: directory
+  path: content/czech/posts/**
+  label: Posts - CZ
   create: all
   match: "**/*"
+- type: heading
+  label: English
 - type: directory
-  path: content/english/pages
+  path: content/english
   label: Pages - EN
-  create: all
+  create: documents
   match: "*"
 - type: directory
   path: content/english/posts
