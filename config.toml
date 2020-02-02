@@ -3,42 +3,43 @@ title = "Limity Jsme My"
 theme = "zen"
 Paginate = 4
 
-[params]
-copyright = "This site is licensed under some licence"
-dateformat = ""
-description = ""
-favicon = ""
-feedlinks = false
-footer = "My jsme limity"
-icon = ""
-image = ""
-imageMaxWidth = ""
-jquery = true
-languageDir = ""
-logo = true
-mainSections = [
-  "actions",
-  "posts"
-]
-microUsername = ""
-mobileMenu = true
-piwikTrackerUrl = ""
-poweredby = false
-search = false
-sidebar = true
-submitted = true
-DefaultContentLanguage = "cz"
+defaultcontentlanguage = "cs"
 [languages]
   [languages.en]
-    weight = 1
+    weight = 2
     contentDir = "content/english"
     languageName = "English"
-  [languages.cz]
-    weight = 2
+  [languages.cs]
+    weight = 1
     contentDir = "content/czech"
     languageName = "Česky"
+    languageCode = "cs-cz"
   [languages.de]
-    weight = 2
+    weight = 3
     contentDir = "content/deutsch"
     languageName = "Deutsch"
 
+[params]
+    copyright = "This site is licensed under some licence"
+    dateformat = ""
+    description = ""
+    favicon = ""
+    feedlinks = false
+    footer = "My jsme limity"
+    icon = ""
+    image = ""
+    imageMaxWidth = ""
+    jquery = true
+    languageDir = ""
+    logo = true
+    mainSections = [
+        "actions",
+        "posts"
+    ]
+    microUsername = ""
+    mobileMenu = true
+    piwikTrackerUrl = ""
+    poweredby = false
+    search = false
+    sidebar = true
+    submitted = true
