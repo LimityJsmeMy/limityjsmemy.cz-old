@@ -12,3 +12,5 @@ We're using 2 branches:
 - `gh-pages` contains site build - the files, that will be actually served to the visitors
 
 Every commit to `master` launches a build according to workflow defined in `.github/workflows/gh-pages.yml` file.
+
+
