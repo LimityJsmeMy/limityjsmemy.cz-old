@@ -1,45 +1,39 @@
-baseurl = "https://limityjsmemy.github.io/limityjsmemy.cz/"
-title = "Limity Jsme My"
-theme = "zen"
 Paginate = 4
-
+baseurl = "https://limityjsmemy.github.io/limityjsmemy.cz/"
 defaultcontentlanguage = "cs"
-[languages]
-  [languages.en]
-    weight = 2
-    contentDir = "content/english"
-    languageName = "English"
-  [languages.cs]
-    weight = 1
-    contentDir = "content/czech"
-    languageName = "Česky"
-    languageCode = "cs-cz"
-  [languages.de]
-    weight = 3
-    contentDir = "content/deutsch"
-    languageName = "Deutsch"
-
+theme = "zen"
+title = "Limity Jsme My"
+[languages.cs]
+contentDir = "content/czech"
+languageCode = "cs-cz"
+languageName = "Česky"
+weight = 1
+[languages.de]
+contentDir = "content/deutsch"
+languageName = "Deutsch"
+weight = 3
+[languages.en]
+contentDir = "content/english"
+languageName = "English"
+weight = 2
 [params]
-    copyright = "This site is licensed under some licence"
-    dateformat = ""
-    description = ""
-    favicon = ""
-    feedlinks = false
-    footer = "My jsme limity"
-    icon = ""
-    image = ""
-    imageMaxWidth = ""
-    jquery = true
-    languageDir = ""
-    logo = true
-    mainSections = [
-        "actions",
-        "posts"
-    ]
-    microUsername = ""
-    mobileMenu = true
-    piwikTrackerUrl = ""
-    poweredby = false
-    search = false
-    sidebar = true
-    submitted = true
+copyright = "This site is licensed under some licence"
+dateformat = ""
+description = ""
+favicon = ""
+feedlinks = false
+footer = "My jsme limity"
+icon = ""
+image = ""
+imageMaxWidth = ""
+jquery = true
+languageDir = ""
+logo = true
+mainSections = ["actions", "posts"]
+microUsername = ""
+mobileMenu = true
+piwikTrackerUrl = ""
+poweredby = false
+search = false
+sidebar = true
+submitted = true
