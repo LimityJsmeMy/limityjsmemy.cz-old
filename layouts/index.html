@@ -2,6 +2,20 @@
 
 {{ define "main" -}}
 <main class="main layout__main">
+    <div class="highlights">
+        <div class="highlight-box">
+            <img class="highlight-image" src="https://picsum.photos/200/300"></img>
+            <div class="highlight-description">
+                <p>Some highlight description. Awesome news!!!</p>
+            </div>
+        </div>
+        <div class="highlight-box">
+            <img class="highlight-image" src="https://picsum.photos/200/300"></img>
+            <div class="highlight-description">
+                <p>Some highlight description. Awesome news!!!</p>
+            </div>
+        </div>
+    </div>
 <article class="{{ with .Section }}section-{{ . | urlize }} {{ end }}single-view">
 <div class="content">
 {{ .Content }}

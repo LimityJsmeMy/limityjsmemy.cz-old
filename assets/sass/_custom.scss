@@ -41,3 +41,60 @@ p.hero {
   text-align: center;
   color: $white;
 }
+
+// Navigation
+
+.main-menu {
+  @include margin-top(.5);
+  outline: 0;
+
+  li {
+    @include margin-right(.5);
+    @include margin-bottom(.5);
+    padding: 0;
+  }
+
+  a {
+    display: block;
+    //background-color: $brand;
+    color: $brand-dark;
+    padding: 2px 8px;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      color: $brand;
+    }
+
+    &:active,
+    &.active {
+      //background-color: $brand;
+      //text-decoration: underline;
+      border-bottom: $brand-dark 3px solid;
+    }
+  }
+}
+
+nav.main-menu {
+  display: flex;
+  justify-content: space-between;
+
+  ul.navbar {
+
+  }
+}
+
+.highlights {
+  display: flex;
+  justify-content: space-between;
+
+  .highlight-box {
+    border: 1px solid $brand-alt;
+    flex-grow: 1;
+    display: flex;
+
+    img.highlight-image {
+      padding-right: 15px;
+    }
+  }
+}

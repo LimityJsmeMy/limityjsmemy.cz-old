@@ -23,4 +23,6 @@
 
 {{ end -}}
 </ul>
+    {{ if $.Param "search" }}{{ partialCached "search.html" . }}{{ end -}}
 </nav>
+
