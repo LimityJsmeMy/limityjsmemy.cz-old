@@ -14,7 +14,7 @@ We are using these content types:
 - event
   - content with date of event. It gets unpublished day after the event ended
 - featured
-  - isn't published on own URL, 2 newest items are published on the front page.
+  - isn't published on its own URL, 2 newest items are published on the front page.
 
 ## Development
 
