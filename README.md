@@ -9,6 +9,7 @@ We are using these content types:
 
 - page
   - ordinary static page without specific date
+  - it's important to specify `url` in the frontmatter, so the URL doesn't contain word `page`,
 - post
   - content with a date of publishing, optionally also allows publishing in the future
 - event
