@@ -1,0 +1,19 @@
+<header class="header layout__header">
+    <div class="top-bar">
+        <div class="social-links">{{ partial "social_links.html" . }}</div>
+        <div class="language-selector-wrapper">{{ if .Site.IsMultiLingual }}{{ partial "language-selector.html" . }}{{ end -}}</div>
+    </div>
+    <div class="hero-logo">
+        <h1>
+            <a href="{{ "/" | relLangURL }}" rel="home">
+                <img src="{{ "/images/logo.png" | relURL }}" alt="Limity jsme My" class="logo"/>
+            </a>
+        </h1>
+        <p class="hero">Jsme hnutí usilující o ukončení těžby a spalování fosilních paliv.<br>
+            Naším cílem je klimatická spravedlnost.</p>
+        <div class="action-buttons">
+            <a href="#" class="button">Přidej se k nám</a>
+            <a href="#" class="button">Chci vědět víc</a>
+        </div>
+    </div>
+</header>
