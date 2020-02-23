@@ -12,8 +12,18 @@ sections:
   create: documents
   match: "*"
 - type: directory
-  path: content/czech/posts/**
+  path: content/czech/post/**
   label: Posts - CZ
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/czech/event/**
+  label: Event - CZ
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/czech/featured/**
+  label: Featured - CZ
   create: all
   match: "**/*"
 - type: heading
@@ -24,14 +34,24 @@ sections:
   create: documents
   match: "*"
 - type: directory
-  path: content/english/posts
+  path: content/english/post
   label: Posts - EN
   create: all
   match: "**/*"
-upload_dir: static/uploads
-public_path: "/uploads"
+- type: directory
+  path: content/english/event/**
+  label: Event - EN
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/english/featured/**
+  label: Featured - EN
+  create: all
+  match: "**/*"
+upload_dir: assets/media
+public_path: "/media"
 front_matter_path: ''
-use_front_matter_path: 
+use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_env:
