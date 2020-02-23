@@ -8,3 +8,8 @@ fields:
 - type: datetime
   name: date
   label: date
+- name: image
+  type: file
+  config:
+    maxSize: '2'
+  label: Image
