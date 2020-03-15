@@ -28,7 +28,7 @@ Every commit to `master` launches a build according to workflow defined in `.git
 
 ## Hugo update
 There are several places, where `hugo` is used:
-* local installation. Can be done e.g. by `brew install hugo`
+* local installation. Can be done e.g. by `brew upgrade hugo`
 * GitHub workflow. Can be set in `.github/workflows/gh-pages.yml`
 * Forestry.io previews. Can be set in  `.forestry/settings.yml`
 
