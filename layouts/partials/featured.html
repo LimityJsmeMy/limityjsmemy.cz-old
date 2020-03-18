@@ -1,13 +1,15 @@
-{{ $headless := .Site.GetPage "/featured" }}
-{{ $reusablePages := $headless.Resources.Match "*featured*" }}
+{{$slice := slice "first" "second" }}
 <div class="highlights">
-    {{ range $reusablePages }}
+{{ range $slice }}
+{{$headlessbundle := $.Site.GetPage (printf "/featured/%s" .)}}
     <div class="highlight-box">
-        <img class="highlight-image" src="https://picsum.photos/200/300"></img>
+    {{range ($headlessbundle.Resources.ByType "image")}}
+        <img src="{{.RelPermalink}}" alt="" class="highlight-image">
+    {{ end }}
         <div class="highlight-description">
-            <h3>{{ .Title }}</h3>
-            <p>{{ .Content }}</p>
+            <h3>{{$headlessbundle.Title}}</h3>
+            <p>{{$headlessbundle.Title}}</p>
         </div>
     </div>
-    {{ end }}
+{{ end }}
 </div>
