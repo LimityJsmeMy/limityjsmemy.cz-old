@@ -29,6 +29,7 @@ imageMaxWidth = ""
 jquery = true
 languageDir = ""
 logo = true
+logo_path = "/images/logo.svg"
 mainSections = ["actions", "posts"]
 microUsername = ""
 mobileMenu = true
@@ -36,14 +37,21 @@ piwikTrackerUrl = ""
 poweredby = false
 search = false
 sidebar = true
-submitted = true
-logo_path = "/images/logo.svg"
 slogan = "Jsme hnutí usilující o ukončení těžby a spalování fosilních paliv.<br>Naším cílem je klimatická spravedlnost."
-header_action_links = [
-    {id = "join-us", text = "Přidej se k nám", url = "/join-us"},
-    {id = "learn-more", text = "Chci vědět víc", url = "/o-nas"}
-]
-social_profiles = [
-    {site = "facebook", url = "https://facebook.com", icon_path = "/icons/facebook.svg"},
-    {site = "twitter", url = "https://twitter.com", icon_path = "/icons/twitter.svg"}
-]
+submitted = true
+[[params.header_action_links]]
+id = "join-us"
+text = "Přidej se k nám"
+url = "/join-us"
+[[params.header_action_links]]
+id = "learn-more"
+text = "Chci vědět víc"
+url = "/o-nas"
+[[params.social_profiles]]
+icon_path = "/icons/facebook.svg"
+site = "facebook"
+url = "https://facebook.com"
+[[params.social_profiles]]
+icon_path = "/icons/twitter.svg"
+site = "twitter"
+url = "https://twitter.com"
