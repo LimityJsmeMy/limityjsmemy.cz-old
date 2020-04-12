@@ -1,6 +1,6 @@
 ---
-title: "Make the Web Fun Again"
-author: "Fredrik Jonsson"
-
+author: Fredrik Jonsson
+sidebar: true
+title: Make the Web Fun Again
 ---
 

@@ -1,3 +1,3 @@
 ---
-menu: "main"
+menu: main
 ---

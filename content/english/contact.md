@@ -1,5 +1,4 @@
 ---
-title: "Contact"
-author: "Fredrik Jonsson"
-
+author: Fredrik Jonsson
+title: Contact
 ---
