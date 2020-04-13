@@ -12,10 +12,12 @@ sections:
   create: documents
   match: "*"
 - type: directory
-  path: content/czech/post/**
+  path: content/czech/posts/**
   label: Posts - CZ
   create: all
   match: "**/*"
+  templates:
+  - post
 - type: directory
   path: content/czech/event/**
   label: Event - CZ
@@ -34,10 +36,12 @@ sections:
   create: documents
   match: "*"
 - type: directory
-  path: content/english/post
+  path: content/english/posts
   label: Posts - EN
   create: all
   match: "**/*"
+  templates:
+  - post
 - type: directory
   path: content/english/event/**
   label: Event - EN
