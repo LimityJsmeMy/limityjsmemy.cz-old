@@ -1,7 +1,7 @@
 ---
 author: Fredrik Jonsson
-title: Contact
+title: Kontakt
 menu:
-  main_en:
+  main_cs:
     weight: 3
 ---
