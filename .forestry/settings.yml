@@ -12,22 +12,26 @@ sections:
   create: documents
   match: "*"
 - type: directory
-  path: content/czech/posts/**
+  path: content/czech/posts
   label: Posts - CZ
   create: all
   match: "**/*"
   templates:
   - post
 - type: directory
-  path: content/czech/event/**
-  label: Event - CZ
+  path: content/czech/events
+  label: Events - CZ
   create: all
   match: "**/*"
+  templates:
+  - event
 - type: directory
-  path: content/czech/featured/**
+  path: content/czech/featured
   label: Featured - CZ
   create: all
   match: "**/*"
+  templates:
+  - featured
 - type: heading
   label: English
 - type: directory
@@ -43,15 +47,49 @@ sections:
   templates:
   - post
 - type: directory
-  path: content/english/event/**
-  label: Event - EN
+  path: content/english/event
+  label: Events - EN
   create: all
   match: "**/*"
+  templates:
+  - event
 - type: directory
-  path: content/english/featured/**
+  path: content/english/featured
   label: Featured - EN
   create: all
   match: "**/*"
+  templates:
+  - featured
+- type: heading
+  label: Deutsch
+- type: directory
+  path: content/deutsch
+  label: Pages - DE
+  create: all
+  match: "*"
+  templates:
+  - page
+- type: directory
+  path: content/deutsch/posts
+  label: Posts - DE
+  create: all
+  match: "**/*"
+  templates:
+  - post
+- type: directory
+  path: content/deutsch/events
+  label: Events - DE
+  create: all
+  match: "**/*"
+  templates:
+  - event
+- type: directory
+  path: content/deutsch/featured
+  label: Featured - DE
+  create: all
+  match: "**/*"
+  templates:
+  - featured
 upload_dir: content/czech/uploads
 public_path: "/uploads"
 front_matter_path: ''
