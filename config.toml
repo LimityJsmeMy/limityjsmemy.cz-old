@@ -67,3 +67,23 @@ url = "https://facebook.com"
 icon_path = "/icons/twitter.svg"
 site = "twitter"
 url = "https://twitter.com"
+[menu]
+
+  [[menu.main_cs]]
+    identifier = "about"
+    name = "about hugo"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/"
+    weight = -110
+  [[menu.main_en]]
+    identifier = "about"
+    name = "about hugo"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/"
+    weight = -110
+  [[menu.main_de]]
+    identifier = "about"
+    name = "about hugo"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/"
+    weight = -110
