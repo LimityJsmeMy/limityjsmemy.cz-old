@@ -8,28 +8,16 @@ contentDir = "content/czech"
 languageCode = "cs-cz"
 languageName = "Česky"
 weight = 1
-[[languages.cs.menu.main]]
-url    = "/"
-name   = "Úvod"
-weight = 0
 [languages.de]
 contentDir = "content/deutsch"
 languageCode = "de-de"
 languageName = "Deutsch"
 weight = 3
-[[languages.de.menu.main]]
-url    = "/"
-name   = "Start"
-weight = 0
 [languages.en]
 contentDir = "content/english"
 languageName = "English"
 languageCode = "en-us"
 weight = 2
-[[languages.en.menu.main]]
-url    = "/"
-name   = "Home"
-weight = 0
 [params]
 copyright = "This site is licensed under some licence"
 dateformat = ""
