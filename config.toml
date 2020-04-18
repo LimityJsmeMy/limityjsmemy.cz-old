@@ -15,9 +15,27 @@ languageName = "Deutsch"
 weight = 3
 [languages.en]
 contentDir = "content/english"
-languageName = "English"
 languageCode = "en-us"
+languageName = "English"
 weight = 2
+[[menu.main_cs]]
+identifier = "about"
+name = "about hugo"
+pre = "<i class='fa fa-heart'></i>"
+url = "/about/"
+weight = 1
+[[menu.main_de]]
+identifier = "about"
+name = "about hugo"
+pre = "<i class='fa fa-heart'></i>"
+url = "/de/about/"
+weight = 1
+[[menu.main_en]]
+identifier = "about"
+name = "about hugo"
+pre = "<i class='fa fa-heart'></i>"
+url = "/en/about/"
+weight = 1
 [params]
 copyright = "This site is licensed under some licence"
 dateformat = ""
@@ -57,23 +75,3 @@ url = "https://facebook.com"
 icon_path = "/icons/twitter.svg"
 site = "twitter"
 url = "https://twitter.com"
-[menu]
-
-  [[menu.main_cs]]
-    identifier = "about"
-    name = "about hugo"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/about/"
-    weight = -110
-  [[menu.main_en]]
-    identifier = "about"
-    name = "about hugo"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/about/"
-    weight = -110
-  [[menu.main_de]]
-    identifier = "about"
-    name = "about hugo"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/about/"
-    weight = -110
