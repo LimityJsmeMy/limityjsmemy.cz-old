@@ -96,7 +96,7 @@ sections:
   path: data/social_links/social-links.yml
   label: Social links
 - type: document
-  path: data/side_header_links/site-header-links.ymll
+  path: data/side_header_links/site-header-links.yml
   label: Site header links
 upload_dir: content/czech/uploads
 public_path: "/uploads"
