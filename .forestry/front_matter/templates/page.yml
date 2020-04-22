@@ -8,3 +8,10 @@ fields:
     required: true
     min: 3
   label: Title
+- name: translationKey
+  type: text
+  config:
+    required: false
+  label: Translation key
+  description: Helps to link language versions of the page (such as O nás-About-Uber
+    uns)
