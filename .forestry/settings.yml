@@ -96,9 +96,8 @@ sections:
   path: data/social_links/social-links.yml
   label: Social links
 - type: document
-  path: data/side_header_links/site-header-links.yml
+  path: data/side_header_links/site-header-links.ymll
   label: Site header links
-  match: "**/*"
 upload_dir: content/czech/uploads
 public_path: "/uploads"
 front_matter_path: ''
