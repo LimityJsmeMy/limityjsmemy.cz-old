@@ -92,6 +92,11 @@ sections:
   - featured
 - type: heading
   label: Navigation
+- type: directory
+  path: data
+  label: Data
+  create: documents
+  match: "**/*"
 - type: document
   path: data/social_links/social-links.yml
   label: Social links
