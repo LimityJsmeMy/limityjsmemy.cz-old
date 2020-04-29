@@ -1,0 +1,24 @@
+---
+label: Site Header links
+hide_body: true
+fields:
+- type: field_group
+  name: join-us
+  label: join-us
+  fields:
+  - type: text
+    name: text
+    label: text
+  - type: text
+    name: url
+    label: url
+- type: field_group
+  name: learn-more
+  label: learn-more
+  fields:
+  - type: text
+    name: text
+    label: text
+  - type: text
+    name: url
+    label: url
