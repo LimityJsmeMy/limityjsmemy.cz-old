@@ -2,7 +2,7 @@ name: deploy repo to github pages on cron run
 
 on:
   schedule:
-    - cron: '5 * * * *' # Every half hour
+    - cron: '*/5 * * * *' # Every half hour
 
 jobs:
   build-deploy:
