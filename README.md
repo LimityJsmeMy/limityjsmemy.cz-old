@@ -17,14 +17,15 @@ We are using these content types:
 - featured
   - isn't published on its own URL, 2 newest items are published on the front page.
 
-## Development
+## Development and deployment
 
 We're using 2 branches:
 
 - `master` contains site code
-- `gh-pages` contains site build - the files, that will be actually served to the visitors
+- `gh-pages` contains site build - the files, that will be actually served to the visitors (during development)
 
 Every commit to `master` launches a build according to workflow defined in `.github/workflows/gh-pages.yml` file.
+The workflow is also executed every half hour using Github CRON (this allows us to use hugo publishing and unpublishing features -see https://gohugo.io/getting-started/usage/#draft-future-and-expired-content)
 
 ## Hugo update
 There are several places, where `hugo` is used:
