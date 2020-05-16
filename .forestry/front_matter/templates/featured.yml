@@ -24,8 +24,8 @@ fields:
   description: Před nastaveným časem nebude obsah zveřejněn.
   config:
     required: false
-    date_format: d.m. YYYY
-    time_format: 
+    date_format: DD.MM. YYYY
+    time_format: h:mm A ZZ
     display_utc: false
 - name: expirydate
   type: datetime
@@ -33,6 +33,6 @@ fields:
   description: V zadaný čas dojde k odstranění obsahu z webu (v editoru zůstane).
   config:
     required: false
-    date_format: D.M. YYYY
-    time_format: 
+    date_format: DD.MM. YYYY
+    time_format: h:mm A ZZ
     display_utc: false
