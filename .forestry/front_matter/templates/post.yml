@@ -23,3 +23,25 @@ fields:
   config:
     maxSize: 5
   label: Image
+- name: draft
+  type: boolean
+  label: Draft
+  description: Když je zapnuto, obsah se nezobrazí na webu.
+- name: publishdate
+  type: datetime
+  label: Datum a čas zveřejnění
+  description: Před nastaveným časem nebude obsah zveřejněn.
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: expirydate
+  type: datetime
+  label: Datum a čas odstranění
+  description: V zadaný čas dojde k odstranění obsahu z webu (v editoru zůstane).
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
