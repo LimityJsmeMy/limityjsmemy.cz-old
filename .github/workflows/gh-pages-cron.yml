@@ -12,7 +12,6 @@ jobs:
         with:
           submodules: true
           fetch-depth: 0
-          lfs: true
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
