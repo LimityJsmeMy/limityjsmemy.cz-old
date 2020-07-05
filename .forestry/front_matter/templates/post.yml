@@ -26,7 +26,8 @@ fields:
 - name: publishdate
   type: datetime
   label: Datum a čas zveřejnění
-  description: Před nastaveným časem nebude obsah zveřejněn.
+  description: Před nastaveným časem nebude obsah zveřejněn. Pokud není nastaven,  příspěvek
+    se zveřejní okamžitě.
   config:
     required: false
     date_format: 
@@ -36,6 +37,7 @@ fields:
   type: datetime
   label: Datum a čas odstranění
   description: V zadaný čas dojde k odstranění obsahu z webu (v editoru zůstane).
+    Pokud není nastaveno, příspěvek se bude zobrazovat trvale.
   config:
     required: false
     date_format: 
