@@ -36,6 +36,36 @@ name = "about hugo"
 pre = "<i class='fa fa-heart'></i>"
 url = "/en/about/"
 weight = 1
+[[menu.header_cs]]
+identifier = "join-us"
+name = "Přidej se"
+url = "/pridej-se"
+weight = 1
+[[menu.header_cs]]
+identifier = "learn-more"
+name = "Chci vědět víc"
+url = "/o-nas"
+weight = 1
+[[menu.header_en]]
+identifier = "join-us"
+name = "Join us"
+url = "/en//join-us"
+weight = 1
+[[menu.header_en]]
+identifier = "learn-more"
+name = "Learn more"
+url = "/en/about-us"
+weight = 1
+[[menu.header_de]]
+identifier = "mach-mit"
+name = "Mach mit"
+url = "/de/mach-mit"
+weight = 1
+[[menu.header_de]]
+identifier = "mehr-erfahren"
+name = "Mehr erfahren"
+url = "/de/ueber-uns"
+weight = 1
 [params]
 copyright = "This site is licensed under some licence"
 dateformat = ""
@@ -57,22 +87,5 @@ piwikTrackerUrl = ""
 poweredby = false
 search = false
 sidebar = true
-slogan = """Jsme hnutí usilující o ukončení těžby a spalování fosilních paliv.  
-Naším cílem je klimatická spravedlnost."""
+slogan = "Jsme hnutí usilující o ukončení těžby a spalování fosilních paliv.<br>Naším cílem je klimatická spravedlnost."
 submitted = false
-[[params.header_action_links]]
-id = "join-us"
-text = "Přidej se k nám"
-url = "/join-us"
-[[params.header_action_links]]
-id = "learn-more"
-text = "Chci vědět víc"
-url = "/o-nas"
-[[params.social_profiles]]
-icon_path = "/icons/facebook.svg"
-site = "facebook"
-url = "https://facebook.com"
-[[params.social_profiles]]
-icon_path = "/icons/twitter.svg"
-site = "twitter"
-url = "https://twitter.com"

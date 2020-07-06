@@ -1,5 +1,6 @@
 ---
-title: O nás
+title: "O nás"
+slug: "o-nas"
 ---
 Hello world. Coal under the ground!
 
