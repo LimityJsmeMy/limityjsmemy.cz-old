@@ -57,8 +57,9 @@ piwikTrackerUrl = ""
 poweredby = false
 search = false
 sidebar = true
-slogan = "Jsme hnutí usilující o ukončení těžby a spalování fosilních paliv.<br>Naším cílem je klimatická spravedlnost."
-submitted = true
+slogan = """Jsme hnutí usilující o ukončení těžby a spalování fosilních paliv.  
+Naším cílem je klimatická spravedlnost."""
+submitted = false
 [[params.header_action_links]]
 id = "join-us"
 text = "Přidej se k nám"
