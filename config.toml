@@ -19,22 +19,36 @@ languageCode = "en-us"
 languageName = "English"
 weight = 2
 [[menu.main_cs]]
-identifier = "about"
-name = "about hugo"
-pre = "<i class='fa fa-heart'></i>"
-url = "/about/"
+identifier = "onas"
+name = "O nás"
+url = "/o-nas/"
+weight = 1
+[[menu.main_cs]]
+identifier = "pridejse"
+name = "Přidej se"
+url = "/pridej-se/"
 weight = 1
 [[menu.main_de]]
 identifier = "about"
-name = "about hugo"
-pre = "<i class='fa fa-heart'></i>"
-url = "/de/about/"
+name = "Über uns"
+url = "/de/ueber-uns/"
 weight = 1
+[[menu.main_de]]
+identifier = "macst-du-mit"
+name = "Machst du mit!"
+url = "/de/machst-du-mit/"
+weight = 2
 [[menu.main_en]]
 identifier = "about"
-name = "about hugo"
+name = "About us"
 pre = "<i class='fa fa-heart'></i>"
-url = "/en/about/"
+url = "/en/about-us/"
+weight = 1
+[[menu.main_en]]
+identifier = "get-involved"
+name = "Get involved"
+pre = "<i class='fa fa-heart'></i>"
+url = "/en/get-involved/"
 weight = 1
 [[menu.header_cs]]
 identifier = "join-us"
