@@ -31,10 +31,6 @@ fields:
   config:
     maxSize: 3
   label: Image
-- name: draft
-  type: boolean
-  label: Draft
-  description: Když je zapnuto, obsah se nezobrazí na webu.
 - name: publishdate
   type: datetime
   label: Datum a čas zveřejnění

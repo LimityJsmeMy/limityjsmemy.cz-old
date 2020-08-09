@@ -1,0 +1,13 @@
+---
+label: Publishing dates
+hide_body: true
+fields:
+- name: publishdate
+  type: datetime
+  label: Datum a čas zveřejnění
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
