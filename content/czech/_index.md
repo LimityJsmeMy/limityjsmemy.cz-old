@@ -1,5 +1,6 @@
 ---
-author: Fredrik Jonsson
+author: Limity jsme my
 sidebar: true
-title: Make the Web Fun Again
+title: Novinky
+
 ---
