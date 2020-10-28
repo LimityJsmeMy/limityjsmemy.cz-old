@@ -3,6 +3,6 @@ author: Fredrik Jonsson
 title: Contact
 menu:
   main_en:
-    weight: 2
+    weight: 3
 
 ---

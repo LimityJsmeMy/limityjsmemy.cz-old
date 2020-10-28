@@ -18,31 +18,55 @@ contentDir = "content/english"
 languageCode = "en-us"
 languageName = "English"
 weight = 2
-[[menu.main_cs]]
-identifier = "onas"
-name = "O nás"
-url = "/o-nas/"
+[[menu.header_cs]]
+identifier = "join-us"
+name = "Přidej se"
+url = "/pridej-se"
+weight = 2
+[[menu.header_cs]]
+identifier = "learn-more"
+name = "Chci vědět víc"
+url = "/o-nas"
+weight = 1
+[[menu.header_de]]
+identifier = "mehr-erfahren"
+name = "Mehr erfahren"
+url = "/de/ueber-uns"
+weight = 1
+[[menu.header_de]]
+identifier = "mach-mit"
+name = "Mach mit"
+url = "/de/mach-mit"
+weight = 2
+[[menu.header_en]]
+identifier = "join-us"
+name = "Join us"
+url = "/en//join-us"
+weight = 2
+[[menu.header_en]]
+identifier = "learn-more"
+name = "Learn more"
+url = "/en/about-us"
 weight = 1
 [[menu.main_cs]]
 identifier = "pridejse"
 name = "Přidej se"
 url = "/pridej-se/"
-weight = 1
-[[menu.main_de]]
-identifier = "about"
-name = "Über uns"
-url = "/de/ueber-uns/"
+weight = 2
+[[menu.main_cs]]
+identifier = "onas"
+name = "O nás"
+url = "/o-nas/"
 weight = 1
 [[menu.main_de]]
 identifier = "macst-du-mit"
 name = "Machst du mit!"
 url = "/de/machst-du-mit/"
 weight = 2
-[[menu.main_en]]
+[[menu.main_de]]
 identifier = "about"
-name = "About us"
-pre = "<i class='fa fa-heart'></i>"
-url = "/en/about-us/"
+name = "Über uns"
+url = "/de/ueber-uns/"
 weight = 1
 [[menu.main_en]]
 identifier = "get-involved"
@@ -50,36 +74,12 @@ name = "Get involved"
 pre = "<i class='fa fa-heart'></i>"
 url = "/en/get-involved/"
 weight = 1
-[[menu.header_cs]]
-identifier = "join-us"
-name = "Přidej se"
-url = "/pridej-se"
-weight = 1
-[[menu.header_cs]]
-identifier = "learn-more"
-name = "Chci vědět víc"
-url = "/o-nas"
-weight = 1
-[[menu.header_en]]
-identifier = "join-us"
-name = "Join us"
-url = "/en//join-us"
-weight = 1
-[[menu.header_en]]
-identifier = "learn-more"
-name = "Learn more"
-url = "/en/about-us"
-weight = 1
-[[menu.header_de]]
-identifier = "mach-mit"
-name = "Mach mit"
-url = "/de/mach-mit"
-weight = 1
-[[menu.header_de]]
-identifier = "mehr-erfahren"
-name = "Mehr erfahren"
-url = "/de/ueber-uns"
-weight = 1
+[[menu.main_en]]
+identifier = "about"
+name = "About us"
+pre = "<i class='fa fa-heart'></i>"
+url = "/en/about-us/"
+weight = 2
 [params]
 copyright = "This site is licensed under some licence"
 dateformat = ""
